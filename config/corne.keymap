@@ -32,10 +32,73 @@
 
         base {
             bindings = <
-  &kp Q  &kp W  &kp E     &kp R     &kp T        &kp Y      &kp U     &kp I      &kp O    &kp P
-  &kp A  &kp S  &kp D     &kp F     &kp G        &kp H      &kp J     &kp K      &kp L    &kp SEMI
-  &kp Z  &kp X  &kp C     &kp V     &kp B        &kp N      &kp M     &kp COMMA  &kp DOT  &kp FSLH
-                &kp LALT  &kp LGUI  &kp SPACE    &kp ENTER  &kp LGUI  &kp LALT
+  &kp Q               &kp W           &kp E               &kp R             &kp T          &kp Y        &kp U            &kp I           &kp O           &kp P
+  &hm LEFT_CONTROL A  &hm LEFT_ALT S  &hm LEFT_COMMAND D  &hm LEFT_SHIFT F  &kp G          &kp H        &hm LSHIFT J     &hm LEFT_GUI K  &hm LEFT_ALT L  &hm LEFT_CONTROL SEMICOLON
+  &kp Z               &kp X           &kp C               &kp V             &kp B          &kp N        &kp M            &kp COMMA       &kp DOT         &kp FSLH
+                                      &lt 3 ESCAPE        &lt 1 TAB         &lt 2 SPACE    &lt 6 ENTER  &lt 5 BACKSPACE  &lt 7 DELETE
+            >;
+        };
+
+        nav {
+            bindings = <
+  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+                  &trans  &trans  &trans    &trans  &trans  &trans
+            >;
+        };
+
+        mouse {
+            bindings = <
+  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+                  &trans  &trans  &trans    &trans  &trans  &trans
+            >;
+        };
+
+        media {
+            bindings = <
+  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+                  &trans  &trans  &trans    &trans  &trans  &trans
+            >;
+        };
+
+        button {
+            bindings = <
+  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+                  &trans  &trans  &trans    &trans  &trans  &trans
+            >;
+        };
+
+        num {
+            bindings = <
+  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+                  &trans  &trans  &trans    &trans  &trans  &trans
+            >;
+        };
+
+        sym {
+            bindings = <
+  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+                  &trans  &trans  &trans    &trans  &trans  &trans
+            >;
+        };
+
+        fun {
+            bindings = <
+  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+                  &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
     };
