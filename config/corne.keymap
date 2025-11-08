@@ -179,9 +179,9 @@
 
         dual {
             bindings = <
-  &trans  &trans  &trans  &trans  &trans    &kp LC(LG(Q))  &kp LC(LG(W))  &trans         &trans         &trans
+  &trans  &trans  &trans  &trans  &trans    &kp LC(LG(Q))  &kp LC(LG(W))  &kp LC(LG(E))  &trans         &trans
   &trans  &trans  &trans  &trans  &trans    &kp LC(LG(H))  &kp LC(LG(J))  &kp LC(LG(K))  &kp LC(LG(L))  &trans
-  &trans  &trans  &trans  &trans  &trans    &kp LC(LG(Z))  &kp LC(LG(X))  &trans         &trans         &trans
+  &trans  &trans  &trans  &trans  &trans    &kp LC(LG(A))  &kp LC(LG(S))  &trans         &trans         &trans
                   &trans  &trans  &trans    &trans         &trans         &trans
             >;
         };
